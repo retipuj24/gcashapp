@@ -28,6 +28,10 @@ public class LoginManager {
         uList.add(new User(0, "John Doe", "johndoe@gmail.com", "+639910002125", 123456));
         uList.add(new User(0, "Maritess Mahinhinan", "mmahinhinan@gmail.com", "+639912553678", 123456));
     
+        for (User user : uList) {
+            System.out.println(user);
+        }
+        System.out.println();
 
         String mobileNumber = "+639913276316";
         int pin = 123456;
